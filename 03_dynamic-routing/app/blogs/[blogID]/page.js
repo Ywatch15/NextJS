@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-async function Blog1({ params }) {
+export default async function Blog1({ params }) {
     console.log(await params);
     const {blogID} = await params; // here the {blogID} is known as the slug
     return(
@@ -13,7 +13,6 @@ async function Blog1({ params }) {
     )
 }
 
-export default Blog1;
 
 
 // the structure of the folder must follow the same convention as done in this 
