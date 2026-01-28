@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const metadata={
+    title:"Blog",
+}
+
 export default async function Blogs({searchParams, params}) {
     const randomRef = Math.random()*1000;
     // console.log(await searchParams);

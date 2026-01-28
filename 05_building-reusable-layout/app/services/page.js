@@ -1,4 +1,9 @@
 import Link from "next/link";
+
+export const metadata={
+    title:"Services",
+}
+
 //this is to create the nested routes
 export default function Services() {
     return (

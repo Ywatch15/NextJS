@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const metadata={
+  title:"Technical Agency",
+  description:"Hello",
+};
 
 export default function Home() {
   return (

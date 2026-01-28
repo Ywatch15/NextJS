@@ -2,6 +2,14 @@
 
 import Link from "next/link";
 
+
+export async function generateMetadata({params}){
+    const {blogID} = await params;
+    return {
+        title: `Blog ${blogID}`,
+    }
+}
+
 export default async function Blog1({ params }) {
     console.log(await params);
     const {blogID} = await params; // here the {blogID} is known as the slug
