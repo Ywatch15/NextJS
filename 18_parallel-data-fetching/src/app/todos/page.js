@@ -51,7 +51,8 @@ const Todos = async () => {
 export default Todos;
 
 
-// git commit -m "use Promise.all for parallel data fetching in Todos component
-// 1- understood the problem of sequential data fetching and how it can lead to increased load times.
-// 2- implemented parallel data fetching using Promise.all to fetch todos and simulate slow responses concurrently.
-// 3- ensured that the UI renders only after all data is fetched, improving performance and user experience."
+git commit -m "use Promise.all for parallel data fetching in Todos component
+1- understood the problem of sequential data fetching and how it can lead to increased load times.
+2- implemented parallel data fetching using Promise.all to fetch todos and simulate slow responses concurrently.
+3- ensured that the UI renders only after all data is fetched, improving performance and user experience.
+4- this practice is best if the data sources are independent and can be fetched simultaneously without waiting for each other, if they are depenedent then we can use sequential data fetching."
